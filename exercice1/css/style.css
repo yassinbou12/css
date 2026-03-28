@@ -1,0 +1,15 @@
+nav>ul>li>a.active {
+    color: red;
+}
+
+main>article.featured {
+    background-color: pink;
+}
+
+main>article>p:first-of-type {
+    background-color: red;
+}
+
+nav>ul>li:nth-child(even) {
+    background-color: green;
+}
