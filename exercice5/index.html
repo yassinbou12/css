@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Mise en Page Responsive</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">MonSite</div>
+        <ul class="nav-menu">
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        
+        <aside class="sidebar">
+            <h3>Menu Latéral</h3>
+            <ul>
+                <li>Catégorie 1</li>
+                <li>Catégorie 2</li>
+                <li>Catégorie 3</li>
+            </ul>
+        </aside>
+
+        <main class="content">
+            <h1>Bienvenue sur mon site</h1>
+            <p>
+                Ce contenu est en <strong>display: block</strong> par défaut. 
+                En version mobile, il prend toute la largeur. En version Desktop, 
+                il se placera à côté de la sidebar grâce au Flexbox sur le container.
+            </p>
+            
+            <section class="grid-cards">
+                <div class="card">Carte 1</div>
+                <div class="card">Carte 2</div>
+                <div class="card">Carte 3</div>
+            </section>
+        </main>
+
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2026 MonSite - Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
